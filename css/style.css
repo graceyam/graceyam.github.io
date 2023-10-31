@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Delius+Unicase&family=Gothic+A1:wght@300;400&display=swap');
+
+
+html {
+    font-size: 16px;
+
+}
+
+body {
+    max-width: 70.25rem;
+    background-color: #D2F3F3;
+    line-height: 1.5;
+    margin: 1rem auto;
+}
+
+h1 {
+    font-family: delius unicase;
+    color: #32241F;
+}
+
+h3 {
+    font-family: gothic a1;
+    font-weight: 300;
+    color: #32241F;
+}
+
+h2 {
+    font-family: gothic a1;
+    font-weight: 300;
+    color: #32241F;
+}
+
+h4 {
+    font-family: gothic a1;
+    font-weight: 300;
+    color: #32241F;
+}
+
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h1 {
+
+}
+
+a {
+  color: ;
+  text-decoration: ;  
+  margin: 0 0 0 2rem;
+}
+
+a h1:hover {
+    color: ;
+}
+
+a h1:visited {
+    color: ;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section {
+    display: grid; 
+    grid-template-columns: repeat(12, 1fr);
+    grid-column-gap: 2em;
+    grid-auto-flow: dense;
+    margin: 10em auto; 
+}
+
+footer {
+    display: flex;
+    width: 35rem;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#project_1 {
+    grid-column: 1/6; 
+}
+
+#description_1 {
+    grid-column: 7/13; 
+}
+
+#project_2 {
+    grid-column: 1/6; 
+}
+
+#description_2 {
+    grid-column: 1/6; 
+}
+
+#project_3 {
+    grid-column: 1/6; 
+}
+
+#description_3 {
+    grid-column: 7/13; 
+}
+
+#project_4 {
+    grid-column: 7/13; 
+}
+
+#description_4 {
+    grid-column: 1/6; 
+}
+
+#project_5 {
+    grid-column: 1/6; 
+}
+
+#description_5 {
+    grid-column: 7/13; 
+}
+
+#contact_photo {
+    grid-column: 1/6; 
+}
+
+#contact_info {
+    grid-column: 7/13; 
+}
