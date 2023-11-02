@@ -5,10 +5,13 @@
 	<title>Contact</title>
 
 	<link rel="stylesheet" href="css/style.css">
-
 </head>
+
 <body>
     <nav>
+        <a href="index.html">
+            <img src="img/pretzel.png" alt="G-shaped pretzel">
+        </a>
         <a href="index.html">
             <h1>Home</h1>
         </a>
@@ -26,12 +29,40 @@
     <section>
         <div id="contact_info">
             <h1>Let's Grab a Bite!</h1>
-            <h3>Email: graceayam@gmail.com
-            <br>
-            LinkedIn: grace-yam</h3>
+            <div class="form">
+                <form action="action_page.php">
+              
+                  <label for="name">Name:</label>
+                  <br>
+                  <input type="text" id="name">
+                  <br>
+                  <br>
+                  <label for="email">Email Address:</label>
+                  <br>
+                  <input type="text" id="email">
+                  <br>
+                  <br>
+                  <label for="subject">Note:</label>
+                  <textarea id="note" placeholder="Write something...">
+                </textarea>
+              
+                  <input type="submit" value="Send">
+              
+                </form>
+            </div>
         </div>
 
         <div id="contact_photo">
-            <img src="img/ " alt=" ">
+            <img src="img/contactpic.png" alt="Sitting criss cross on the floor">
         </div>
     </section>
+
+    <footer>
+        <a href="https://www.linkedin.com/in/grace-yam/" target="_blank">
+            <h3>LinkedIn</h3>
+        </a>
+        <a href="mailto: graceayam@gmail.com">
+            <h3>Email</h3>
+    </a>
+    </footer>
+</body>
